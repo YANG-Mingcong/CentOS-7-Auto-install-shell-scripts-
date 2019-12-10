@@ -31,3 +31,4 @@ user_config_dir=/etc/vsftpd/vconf' >> /etc/vsftpd/vsftpd.conf
 # Configure pam (/etc/pam.d/vsftpd)
 #------------------------------------------------------------------------------------
 
+cp /etc/pam.d/vsftpd /etc/pam.d/vsftpd.orgianl
